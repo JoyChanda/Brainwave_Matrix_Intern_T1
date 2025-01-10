@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link  href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <header class="header">
+        <a href="#home" class="logo" >IT <span>HUB</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#about__us">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hello, it's  <span>IT HUB</span></h1>
+        <h3 class="text-animation">We provide <span></span></h3>
+        <p>IT HUB is a tech-driven company offering UI/UX design, web design, software testing, and Backend Development. We deliver innovative, user-focused digital solutions to help businesses succeed</p>
+      <div class="social-icons">
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-github'></i></a>
+      </div>
+
+      <div class="btn-group">
+        <a href="#landing_page.jpg" class="btn">Visit Us</a>
+        <a href="#contact" class="btn">contact</a>
+      </div>
+    </div>
+      <div class="home-img">
+        <img src="image.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="about__us" id="about__us">
+      <h2 class="heading">About Us</h2>
+
+      <header class="header__container">
+        <div class="header__image">
+            <img src="assets/header.jpg" alt="">
+        </div>
+        <div class="header__content">
+            <h1>Welcome to <span>IT HUB</span> Hello World.</h1>
+            <p>
+              IT HUB is a forward-thinking IT solutions provider specializing in UI/UX design, web design, software testing, and Backend Development.
+               Our mission is to transform ideas into impactful digital solutions that drive business success. With a focus on creativity, functionality, and precision,
+                we ensure every project meets the highest standards and delivers exceptional results.
+            </p>
+            <form action="/">
+                <div class="input__row">
+                    <div class="input__group">
+                        <span><i class="ri-search-line"></i></span>
+                        <input type="text" placeholder="Search for Course" />
+                    </div>
+                    <div class="input__group">
+                        <span><i class="ri-arrow-down-s-line"></i></span>
+                        <input type="text" placeholder="Categories" />
+                    </div>
+                </div>
+                <button type="submit">Search Now</button>
+            </form>
+        </div>
+    </header>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+          <div class="services-box">
+            <div class="services-info">
+              <h4>UI Desgin</h4>
+              <p>
+                We design user-friendly and attractive interfaces to make apps and websites easy to use.
+                Our focus is on creating experiences that keep users engaged and happy. Good design makes everything feel simple and enjoyable.
+              </p>
+            </div>
+          </div>
+          <div class="services-box">
+            <div class="services-info">
+              <h4>Backend Development</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, 
+              </p>
+            </div>
+          </div>
+          <div class="services-box">
+            <div class="services-info">
+              <h4>Web Page Design</h4>
+              <p>
+                We create modern and responsive websites that look great on all devices.
+                From layouts to visuals, we make sure your website matches your brand and is easy to navigate.
+                 A great website leaves a lasting impression.
+            </div>
+          </div>
+          <div class="services-box">
+            <div class="services-info">
+              <h4>Software Testing</h4>
+              <p>
+                We test software thoroughly to ensure it works smoothly and without errors.
+                 This helps your product perform well, stay secure, and meet user expectations.
+                  Testing is key to delivering reliable solutions.
+            </div>
+          </div> 
+        </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Us</span></h2>
+      <form action="">
+        <div class="input-group">
+          <div class="input-box" >
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Your Email">
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Phone Number">
+            <input type="text" placeholder="Subject">
+          </div>
+        </div>
+        <div class="input-group-2">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+          <input type="submit" value="Send Message" class="btn">
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-github'></i></a>
+      </div>
+      <ul class="list">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Privacy Policies</a></li>
+      </ul>
+      <p class="copyright">
+        @IT HUB | All Right Reserved
+      </p>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
